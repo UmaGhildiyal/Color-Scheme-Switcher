@@ -8,7 +8,7 @@
     <title>JavaScript Background Color Switcher</title>
   </head>
   <body class="canvas bg-[#2d2c38] text-white">
-    <nav class="text-2xl m-4 space-x-4 flex justify-center">
+    <nav class="text-2xl m-2 space-x-4 flex justify-center">
       <a
         href="\color_changer\src\"
         aria-current="page"
@@ -17,14 +17,14 @@
       >
     </nav>
     <h1
-      class="text-3xl my-4 flex flex-col items-center text-center font-semibold"
+      class="text-3xl mb-3 flex flex-col items-center text-center font-semibold"
     >
       Color Scheme Switcher
     </h1>
     <div
-      class="flex flex-row items-center justify-center m-3 hover:cursor-pointer"
+      class="flex flex-row items-center justify-center m-2 hover:cursor-pointer"
     >
-      <div class="flex flex-col ml-4">
+      <div class="flex flex-col ml-3">
         <span
           class="button w-32 h-32 flex justify-center items-center bg-[#f1bfc0]"
           id="rose"
@@ -61,10 +61,28 @@
         ></span>
       </div>
     </div>
-    <h2 class="text-center mt-4 flex flex-col">
-      Try clicking on one of the colors above
-      <span>to change the background color of this page!</span>
+    <h2 class="text-center mt-3 flex flex-col">
+      Click on the colors to change the background! OR
+      <span class="font-semibold mt-1"
+        >Press start to watch the background color change randomly!</span
+      >
     </h2>
+    <div
+      class="flex flex-row items-center justify-center mt-3 hover:cursor-pointer"
+    >
+      <button
+        id="start"
+        class="mx-2 px-2 font-medium bg-white text-black border rounded-md"
+      >
+        Start
+      </button>
+      <button
+        id="stop"
+        class="mx-2 px-2 font-medium bg-white text-black border rounded-md"
+      >
+        Stop
+      </button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
