@@ -8,4 +8,4 @@
 ## Overview
 A basic but aesthetically pleasing color scheme changer web app made using HTML, Tailwind Css, and Javascript
 
-**Link:** https://color-changer-unitee.netlify.app/
+**Link:** [https://color-changer-unitee.netlify.app/](https://color-changer-unitee.netlify.app)
